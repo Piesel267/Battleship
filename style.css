@@ -1,0 +1,48 @@
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+  }
+  
+  .row {
+    display: flex;
+    border: none;
+  }
+  
+  .field {
+    background-color: lightgray;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+  }
+body {
+font-family: Arial, sans-serif;
+}
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+header {
+    text-align: center;
+  }
+  
+  img {
+    width: 200px;
+    height: auto;
+  }
+
+button#mode-switch {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
